@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
 :root {
-  --color-primary: #4D41C0;
+  --color-primary: #4D41C0;/** define "color-primary" como variável, logo a mesma pode ser utilizada em outros arquivos .css, oque facilita, pois quando for mudar a cor do tema do site, basta alterar nessa variavel*/
 }
 
 * {

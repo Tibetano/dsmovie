@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "baseUrl": "./src",//define o diretório raiz como a pasta src(não tenho certesa se é isso mesmo kakakak)
     "target": "es5",
     "lib": [
       "dom",
