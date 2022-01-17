@@ -5,14 +5,13 @@ import { BASE_URL } from "utils/requests";
 
 function Listing() {
 
-
-    // FORMA ERRADA
+    //FORMA ERRADA
     axios.get(`${BASE_URL}/movies?size=12&page=0`)
         .then(response => {
             console.log(response.data);
         });
 
-
+    
     return (
         <>
             <Pagination />
